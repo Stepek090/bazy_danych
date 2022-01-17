@@ -9,9 +9,7 @@ order by
 limit
   2;
 
-alter table postac modify id_postaci int not null;
-ALTER TABLE postac
-DROP primary key id_postaci;
+
 ZADANIE 2
 
 alter table postac add column pesel varchar(11) not null;
